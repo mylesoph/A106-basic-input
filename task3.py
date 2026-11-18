@@ -12,3 +12,9 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+a = float(input("What is the a value?"))
+b = float(input("What is the b value?"))
+c = float(input("What is the c value?"))
+
+answer = (c - b) / a
+print("the answer is:", answer)
