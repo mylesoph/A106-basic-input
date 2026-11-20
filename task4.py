@@ -16,3 +16,13 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math 
+
+height = float(input("What is the height?"))
+radius = float(input("What is the radius?"))
+
+slant_height = math.sqrt((radius**2) + (height**2))
+
+surfacearea = (math.pi * (radius**2)) + (math.pi * radius * slant_height)
+
+print("The surface area is:", surfacearea)
